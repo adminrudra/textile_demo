@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:color_code",
+ "creation": "2025-06-29 18:27:05.877567",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "color_code",
+  "color_name",
+  "disable"
+ ],
+ "fields": [
+  {
+   "fieldname": "color_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Color Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "color_name",
+   "fieldtype": "Data",
+   "label": "Color Name"
+  },
+  {
+   "default": "0",
+   "fieldname": "disable",
+   "fieldtype": "Check",
+   "label": "Disable"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-06-29 18:28:05.778466",
+ "modified_by": "Administrator",
+ "module": "Rudra Common",
+ "name": "Color Master",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

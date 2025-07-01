@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:item_grp",
+ "creation": "2025-06-29 18:12:03.549172",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "item_grp",
+  "disable"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_grp",
+   "fieldtype": "Data",
+   "label": "Item Grp",
+   "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "disable",
+   "fieldtype": "Check",
+   "label": "Disable"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-06-29 18:16:51.764320",
+ "modified_by": "Administrator",
+ "module": "Rudra Common",
+ "name": "Item Grp",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
